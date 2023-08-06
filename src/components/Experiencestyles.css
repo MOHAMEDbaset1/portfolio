@@ -1,0 +1,42 @@
+  .experience-container{
+    display: grid;
+    grid-template-columns: 1fr fr;
+    gap: 2rem;
+    
+    
+    
+}
+
+.experience-container > div {
+    background-color:slategray;
+    padding: 3rem 40rem;
+    
+    border: .5px solid transparent;
+
+
+}
+
+
+.experience-container > div h3  {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+.experience-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+
+} 
+
+.experience-details{
+    display: flex;
+    gap: 1rem;
+}
+
+.experience-container h4{
+    font-size: 1.5rem;
+}
+
